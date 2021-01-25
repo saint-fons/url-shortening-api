@@ -45,7 +45,7 @@ export default styled.div`
   @media (min-width: 1440px) {
 
     form {
-      max-width: 500px;
+      width: 100%;
       margin: 10px auto;
       border: 1px solid #ccc;
       padding: 20px;

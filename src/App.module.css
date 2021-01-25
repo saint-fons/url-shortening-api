@@ -75,6 +75,145 @@
 
 
 /*HEADER***************************************************************/
+/*SHORTINGCOMPONENT***************************************************************/
+
+
+/*SHORTINGCOMPONENT***************************************************************/
+
+
+
+
+
+
+/*FOOTERCOMPONENT***************************************************************/
+
+.FooterContainer {
+    width: 100%;
+}
+
+
+.StatisticsContainer {
+    max-width: 350px;
+    margin: auto;
+
+    text-align: center;
+}
+
+
+.AdvancedStatistics {
+    margin: auto;
+    font-size: 35px;
+}
+
+
+/*INFO*/
+
+.InfoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.InfoRecognitionContainer {
+    max-width: 350px;
+
+    margin: 15px;
+}
+
+.InfoRecordsContainer {
+    max-width: 350px;
+
+    margin: 15px;
+}
+
+.InfoCustomizableContainer {
+    max-width: 350px;
+
+    margin: 15px;
+}
+
+.InfoTitle {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin: 15px;
+}
+
+/*INFO*/
+
+.YourLinksToday {
+    width: 100%;
+    min-height: 250px;
+
+    background-image: url("./img/bg-shorten-desktop.svg") ;
+    background-size: cover;
+}
+
+.BoostYourLinks {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.FooterGetStarted {
+    max-width: 150px;
+
+    margin: auto;
+}
+
+
+/*FOOTERMENU*/
+
+
+.FooterMenuContainer {
+    width: 100%;
+    display: flex;
+
+    min-height: 350px;
+}
+
+.FooterShortly {
+    width: 33.33%;
+}
+
+.FooterMenu {
+    width: 100%;
+    display: flex;
+}
+
+.FooterFeatures {
+    width: 33.33%;
+}
+
+.FooterResources {
+    width: 33.33%;
+}
+
+.FooterCompany {
+    width: 33.33%;
+}
+
+
+.SocialNetworks {
+    width: 33.33%;
+}
+
+
+
+
+/*FOOTERMENU*/
+
+
+
+
+
+/*FOOTERCOMPONENT***************************************************************/
+
+
+
+
+
 
 
 

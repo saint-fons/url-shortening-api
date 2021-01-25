@@ -8,12 +8,6 @@ function ShortingComponent(props) {
     return (
         <div>
             <div>
-                hi
-            </div>
-            <div>
-                {/*{props.short_link.map(l => l)}*/}
-            </div>
-            <div>
                 <EnterDataForm
                     SendingUrlAC={props.SendingUrlAC}
                 />
