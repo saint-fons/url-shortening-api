@@ -1,27 +1,25 @@
 import React from "react"
 import {compose} from "redux";
-import { connect } from 'react-redux';
+import {connect} from 'react-redux';
 import {SendingUrlAC} from "../Redux/AddressReducer";
+import EnterDataForm from "./Forms/EnterDataForm";
 
-class ShortingComponent extends React.Component {
-
-    componentDidMount() {
-        let url = "https://ru.reactjs.org/docs/getting-started.html"
-        this.props.SendingUrlAC(url)
-    }
-
-    render() {
-        return (
+function ShortingComponent(props) {
+    return (
+        <div>
             <div>
-                <div>
-                    hi
-                </div>
-                <div>
-                    {this.props.short_link}
-                </div>
+                hi
             </div>
-        )
-    }
+            <div>
+                {/*{props.short_link.map(l => l)}*/}
+            </div>
+            <div>
+                <EnterDataForm
+                    SendingUrlAC={props.SendingUrlAC}
+                />
+            </div>
+        </div>
+    )
 }
 
 let mapStateToProps = (state) => {

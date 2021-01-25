@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER***************************************************************/
+
+.AppContainer {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.MenuContainer {
+    width: 100%;
+    display: flex;
+
+    margin: 25px 0 35px 0;
+}
+
+.MenuLeftContainer {
+    width: 50%;
+    display: flex;
+}
+
+.MenuLeftButton {
+    margin: 15px;
+}
+
+.MenuRightContainer {
+    width: 50%;
+    display: flex;
+}
+
+.MenuRightButton {
+    margin: 15px;
+}
+
+/*SHORTER*/
+
+.MoreThanSorter {
+    width: 50%;
+}
+
+.ShorterSpan{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+
+.GetStartedBtn {
+    max-width: 75px;
+    margin: 15px;
+}
+
+.MenuRightImg {
+    width: 50%;
+}
+
+.ShorterContainer {
+    width: 100%;
+    display: flex;
+}
+
+
+.WorkingShorterImg {
+    width: 100%;
+}
+
+
+
+/*SHORTER*/
+
+
+
+
+/*HEADER***************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
