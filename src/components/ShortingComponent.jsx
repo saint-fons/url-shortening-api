@@ -3,6 +3,7 @@ import {compose} from "redux";
 import {connect} from 'react-redux';
 import {SendingUrlAC} from "../Redux/AddressReducer";
 import EnterDataForm from "./Forms/EnterDataForm";
+import ShortenLinksComponent from "./ShortenLinksComponent";
 
 function ShortingComponent(props) {
     return (
@@ -11,14 +12,18 @@ function ShortingComponent(props) {
                 <EnterDataForm
                     SendingUrlAC={props.SendingUrlAC}
                 />
+                <ShortenLinksComponent
+                    links={props.links}
+                />
             </div>
+
         </div>
     )
 }
 
 let mapStateToProps = (state) => {
     return {
-        short_link: state.AddressShortening.short_link
+        links: state.AddressShortening.links
     }
 }
 

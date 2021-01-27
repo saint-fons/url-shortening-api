@@ -1,7 +1,6 @@
 import React from 'react'
 import Styles from './Styles'
 import {Form, Field} from 'react-final-form'
-import {FORM_ERROR} from 'final-form'
 
 
 const EnterDataForm = (props) => {
@@ -46,8 +45,7 @@ const EnterDataForm = (props) => {
                         <Field name="url">
                             {({input, meta}) => (
                                 <div>
-                                    <label>Url</label>
-                                    <input {...input} type="text" placeholder="url"/>
+                                    <input {...input} type="text" placeholder="Shorten a link here"/>
                                     {(meta.error || meta.submitError) && meta.touched && (
                                         <span>{meta.error || meta.submitError}</span>
                                     )}
@@ -57,7 +55,7 @@ const EnterDataForm = (props) => {
                         {submitError && <div className="error">{submitError}</div>}
                         <div className="buttons">
                             <button type="submit" disabled={submitting}>
-                                Log In
+                                Shorten it!
                             </button>
                             <button
                                 type="button"

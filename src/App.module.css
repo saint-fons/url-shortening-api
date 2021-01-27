@@ -23,13 +23,17 @@
     display: flex;
 }
 
-.MenuLeftButton {
+.MenuLinks {
+    text-decoration: none;
+
     margin: 15px;
 }
 
 .MenuRightContainer {
     width: 50%;
     display: flex;
+
+    justify-content: flex-end;
 }
 
 .MenuRightButton {
@@ -40,6 +44,8 @@
 
 .MoreThanSorter {
     width: 50%;
+
+    font-size: 20px;
 }
 
 .ShorterSpan{
@@ -47,10 +53,23 @@
     font-weight: bold;
 }
 
+.BuildYourBrand {
+    width: 70%;
+}
+
 
 .GetStartedBtn {
-    max-width: 75px;
-    margin: 15px;
+    max-width: 155px;
+    min-height: 45px;
+
+    margin: 25px;
+    padding-top: 10px;
+    border-radius: 25px;
+
+    text-align: center;
+    color: white;
+
+    background-color: aquamarine;
 }
 
 .MenuRightImg {
@@ -89,11 +108,14 @@
 
 .FooterContainer {
     width: 100%;
+
+    margin-top: 55px;
 }
 
 
 .StatisticsContainer {
     max-width: 350px;
+    min-height: 150px;
     margin: auto;
 
     text-align: center;
@@ -103,6 +125,11 @@
 .AdvancedStatistics {
     margin: auto;
     font-size: 35px;
+}
+
+
+.TrackYourLinks {
+    margin-top: 15px;
 }
 
 
@@ -116,21 +143,27 @@
 }
 
 .InfoRecognitionContainer {
-    max-width: 350px;
+    max-width: 250px;
+    padding: 25px;
 
-    margin: 15px;
+    margin: auto;
+    background-color: #d4d4d4;
 }
 
 .InfoRecordsContainer {
     max-width: 350px;
+    padding: 25px;
 
-    margin: 15px;
+    margin: auto;
+    background-color: #d4d4d4;
 }
 
 .InfoCustomizableContainer {
     max-width: 350px;
+    padding: 25px;
 
-    margin: 15px;
+    margin: auto;
+    background-color: #d4d4d4;
 }
 
 .InfoTitle {
@@ -148,18 +181,30 @@
 
     background-image: url("./img/bg-shorten-desktop.svg") ;
     background-size: cover;
+    background-color: #2d0d47;
 }
 
 .BoostYourLinks {
+    padding-top: 35px;
+
     font-size: 35px;
+    color: white;
     text-align: center;
     font-weight: bold;
 }
 
 .FooterGetStarted {
-    max-width: 150px;
+    max-width: 155px;
+    min-height: 45px;
+    padding-top: 10px;
+    border-radius: 20px;
+    text-align: center;
 
-    margin: auto;
+    font-size: 20px;
+    color: white;
+    background-color: aquamarine;
+
+    margin: 35px auto auto auto;
 }
 
 
@@ -170,7 +215,10 @@
     width: 100%;
     display: flex;
 
+
     min-height: 350px;
+
+    background-color: dimgray;
 }
 
 .FooterShortly {
@@ -184,14 +232,20 @@
 
 .FooterFeatures {
     width: 33.33%;
+
+    margin: 35px auto auto 15px;
 }
 
 .FooterResources {
     width: 33.33%;
+
+    margin: 35px auto auto 15px;
 }
 
 .FooterCompany {
     width: 33.33%;
+
+    margin: 35px auto auto 15px;
 }
 
 
@@ -199,11 +253,65 @@
     width: 33.33%;
 }
 
+.FooterShortlyLogo {
+    margin: 35px auto auto 35px;
 
+    color: white;
+}
+
+
+
+
+.FooterLinksHeader {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
 
 
 /*FOOTERMENU*/
 
+
+
+/*SOCIALNETWORKS*/
+
+.Social {
+    max-width: 25px;
+
+    margin: 15px;
+}
+
+
+/*SOCIALNETWORKS*/
+
+
+
+
+
+/*SHORTENLINKS*/
+
+
+.ShortenLinksContainer {
+    width: 100%;
+    min-height: 75px;
+    padding: 35px;
+
+    margin: auto;
+
+    justify-content: space-between;
+    display: flex;
+
+    background-color: #d4d4d4;
+}
+
+
+
+
+
+
+/*SHORTENLINKS*/
 
 
 

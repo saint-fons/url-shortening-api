@@ -1,6 +1,7 @@
 import React from "react"
 import s from "./../App.module.css"
 import working from "./../img/illustration-working.svg"
+import logo from "./../img/logo.svg"
 
 const MenuComponent = () => {
     return (
@@ -8,23 +9,26 @@ const MenuComponent = () => {
             <div className={s.MenuContainer}>
                 <div className={s.MenuLeftContainer}>
                     <div className={s.MenuLeftButton}>
-                        Features
+                        <a className={s.MenuLinks} href={""}> <img src={logo} alt={"logo"} /> </a>
                     </div>
                     <div className={s.MenuLeftButton}>
-                        Pricing
+                        <a className={s.MenuLinks} href={""}>Features</a>
                     </div>
                     <div className={s.MenuLeftButton}>
-                        Resources
+                        <a className={s.MenuLinks} href={""}>Pricing</a>
+                    </div>
+                    <div className={s.MenuLeftButton}>
+                        <a className={s.MenuLinks} href={""}>Resources</a>
                     </div>
                 </div>
 
                 <div className={s.MenuRightContainer}>
                     <div className={s.MenuRightButton}>
-                        Login
+                        <a className={s.MenuLinks} href={""}>Login</a>
                     </div>
 
                     <div className={s.MenuRightButton}>
-                        Sign Up
+                        <a className={s.MenuLinks} href={""}>Sign Up</a>
                     </div>
                 </div>
             </div>
@@ -33,8 +37,10 @@ const MenuComponent = () => {
             <div className={s.ShorterContainer}>
                 <div className={s.MoreThanSorter}>
                     <div className={s.ShorterSpan}>More than just shorter links</div>
-                    Build your brand’s recognition and get detailed insights
-                    on how your links are performing.
+                    <div className={s.BuildYourBrand}>
+                        Build your brand’s recognition and get detailed insights
+                        on how your links are performing.
+                    </div>
                     <div className={s.GetStartedBtn}>
                         Get Started
                     </div>
